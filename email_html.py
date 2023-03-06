@@ -2,13 +2,11 @@ from api import api_news
 from pprint import pprint
 
 
-
 def embeded_image(news_dist):
     head = """<html>\n<body>"""
     bottom = """</body>\n</html>"""
     html_structure = """"""
     article_no = 1
-
 
     # Converting the fetched News into html code 
     for news in news_dist:
